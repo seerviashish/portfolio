@@ -3,6 +3,8 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "@tanstack/react-query": "^4.29.15",
+    "@tanstack/react-query-devtools": "^4.29.15",
     "@testing-library/jest-dom": "^5.14.1",
     "@testing-library/react": "^13.0.0",
     "@testing-library/user-event": "^13.2.1",
@@ -13,14 +15,29 @@
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "react-scripts": "5.0.1",
-    "typescript": "^4.4.2",
+    "typescript": "5.0.4",
     "web-vitals": "^2.1.0"
   },
   "scripts": {
+    "commit": "git-cz",
     "start": "react-scripts start",
-    "build": "react-scripts build",
+    "i18n:extract": "lingui extract",
+    "i18n:compile": "lingui compile",
+    "build:app": "react-scripts build",
+    "build:i18n": "yarn i18n:extract && yarn i18n:compile",
+    "build": "yarn build:i18n && yarn build:app",
     "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "test:nowatch": "react-scripts test --watchAll=false --passWithNoTests",
+    "eject": "react-scripts eject",
+    "preinstall": "husky install",
+    "pre-commit": "lint-staged && yarn test:nowatch",
+    "eslint:check": "eslint src/**/*.{js,jsx,ts,tsx}",
+    "eslint:fix": "eslint --fix src/**/*.{js,jsx,ts,tsx}",
+    "prettier:check": "prettier --check . --config ./.prettierrc.js",
+    "prettier:write": "prettier --write . --config ./.prettierrc.js --ignore-unknown",
+    "lint:check": "yarn eslint:check && yarn prettier:check",
+    "lint:fix": "yarn eslint:fix && yarn prettier:write",
+    "lint-staged:check": "lint-staged"
   },
   "eslintConfig": {
     "extends": [
@@ -38,6 +55,35 @@
       "last 1 chrome version",
       "last 1 firefox version",
       "last 1 safari version"
+    ]
+  },
+  "devDependencies": {
+    "@lingui/cli": "^4.2.1",
+    "@lingui/core": "^4.2.1",
+    "@lingui/macro": "^4.2.1",
+    "@lingui/react": "^4.2.1",
+    "@tanstack/eslint-plugin-query": "^4.29.9",
+    "@typescript-eslint/eslint-plugin": "^5.50.0",
+    "@typescript-eslint/parser": "^5.60.0",
+    "eslint": "^8.0.1",
+    "eslint-config-prettier": "^8.8.0",
+    "eslint-config-standard-with-typescript": "^35.0.0",
+    "eslint-plugin-import": "^2.25.2",
+    "eslint-plugin-n": "^15.0.0",
+    "eslint-plugin-promise": "^6.0.0",
+    "eslint-plugin-react": "^7.32.2",
+    "eslint-plugin-react-hooks": "^4.6.0",
+    "git-cz": "^4.9.0",
+    "husky": "^8.0.3",
+    "lint-staged": "^13.2.2",
+    "prettier": "^2.8.8"
+  },
+  "lint-staged": {
+    "src/**/*.{js,jsx,ts,tsx}": [
+      "eslint"
+    ],
+    "*": [
+      "prettier --check --ignore-unkown"
     ]
   }
 }
