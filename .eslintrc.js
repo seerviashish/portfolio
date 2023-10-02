@@ -39,5 +39,7 @@ module.exports = {
     },
   },
   plugins: ['react', '@typescript-eslint', '@tanstack/query'],
-  rules: {},
+  rules: {
+    'react/no-unknown-property': 0,
+  },
 }
