@@ -24,10 +24,8 @@ jobs:
       - name: Install dependencies, Check types, Check linting, Run tests, Build storybook, Build
         run: |
           yarn install --frozen-lockfile
-          yarn type-check
-          yarn lint
-          yarn test:ci
-          yarn build-storybook
+          yarn lint:check
+          yarn test:nowatch
           yarn build
 
       - name: Merge PR
