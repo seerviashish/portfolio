@@ -1,6 +1,6 @@
 # PORTFOLIO
 
-![main](https://github.com/seerviashish/portfolio/actions/workflows/main.yml/badge.svg) ![codeql](https://github.com/seerviashish/portfolio/actions/workflows/codeql.yml/badge.svg) [![npm version](https://badgen.net/npm/v/portfolio)](https://npm.im/portfolio) [![npm downloads](https://badgen.net/npm/dm/portfolio)](https://npm.im/portfolio)
+![main](https://github.com/seerviashish/portfolio/actions/workflows/main.yml/badge.svg) ![codeql](https://github.com/seerviashish/portfolio/actions/workflows/codeql.yml/badge.svg)
 
 ## Portfolio Project.
 
