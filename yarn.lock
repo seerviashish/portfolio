@@ -1837,18 +1837,6 @@
     ramda "^0.27.1"
     source-map "^0.8.0-beta.0"
 
-"@lingui/conf@4.2.1":
-  version "4.2.1"
-  resolved "https://registry.yarnpkg.com/@lingui/conf/-/conf-4.2.1.tgz#a7ed4a162703c040085d7d3c55f54ef83d0de9cf"
-  integrity sha512-y8GNgJpiO3DqOQQJ8xfxdq9dPpG3TJBd7lBajt9pRV2e89GO39UIT3uW5ZSfQaO1VWuZQpkIX8XcJPiKK5uz+A==
-  dependencies:
-    "@babel/runtime" "^7.20.13"
-    chalk "^4.1.0"
-    cosmiconfig "^8.0.0"
-    jest-validate "^29.4.3"
-    jiti "^1.17.1"
-    lodash.get "^4.4.2"
-
 "@lingui/conf@4.5.0":
   version "4.5.0"
   resolved "https://registry.yarnpkg.com/@lingui/conf/-/conf-4.5.0.tgz#09b39de3a03a9017cd8299b1d8df923c78447ebf"
@@ -1889,16 +1877,16 @@
     date-fns "^2.29.3"
     pofile "^1.1.4"
 
-"@lingui/macro@^4.2.1":
-  version "4.2.1"
-  resolved "https://registry.yarnpkg.com/@lingui/macro/-/macro-4.2.1.tgz#57e7605797403dc12ba0a70515f16caa7752f193"
-  integrity sha512-hBFzSBKJVQf/Unk583sCmYeZfXuOIegyro0KNZESySSl1pZfAUEbPo2lsMTxD8YdWrWZqwIfrCZKp14l6xmeOQ==
+"@lingui/macro@^4.5.0":
+  version "4.5.0"
+  resolved "https://registry.yarnpkg.com/@lingui/macro/-/macro-4.5.0.tgz#4e779f4652200b7ecc6f3364fda840ae365fb996"
+  integrity sha512-6qha9YXuNnta4HCR+g6J6UPaAuAFlM1duqgznh4X7hHSsFG+m6oX7/srAMfU41Z8lbDmgXc3raqHLXFSdUNbYQ==
   dependencies:
     "@babel/runtime" "^7.20.13"
     "@babel/types" "^7.20.7"
-    "@lingui/conf" "4.2.1"
-    "@lingui/core" "4.2.1"
-    "@lingui/message-utils" "4.2.1"
+    "@lingui/conf" "4.5.0"
+    "@lingui/core" "4.5.0"
+    "@lingui/message-utils" "4.5.0"
 
 "@lingui/message-utils@4.2.1":
   version "4.2.1"
