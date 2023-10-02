@@ -1,32 +1,36 @@
-name: Build App
-on:
-  push:
-    branches: [main]
-  pull_request:
-    branches: [main]
+name: Main
+
+on: [push]
 
 jobs:
-  deploy:
-    name: Release and deploy to github repository
-    runs-on: ${{ matrix.os }}
-    strategy:
-      matrix:
-        node-version:
-          - '18.16.0'
-        os:
-          - ubuntu-latest
+  run-ci:
+    env:
+      GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
+    name: Run Type Check & Linters
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+
     steps:
-      - name: Checkout Repository
+      - name: Checkout repository
         uses: actions/checkout@v3
         with:
           fetch-depth: 0
 
-      - name: Setup NodeJS ${{ matrix.node-version }}
+      - name: Set up Node
         uses: actions/setup-node@v3
         with:
-          node-version: ${{ matrix.node-version }}
+          node-version: lts/*
           cache: 'yarn'
-          cache-dependency-path: '**/yarn.lock'
 
       - name: Install dependencies
         run: yarn install --frozen-lockfile
+
+      - name: Check linting
+        run: yarn lint:check
+
+      - name: Run tests
+        run: yarn test:nowatch
+
+      - name: Build package
+        run: yarn build
