@@ -16,6 +16,10 @@ git:
 documentation:
   - '**/*.md'
   - '**/*.txt'
+dependencies:
+  - '**/package.json'
+  - '**/yarn.lock'
+  - '**/package-lock.json'
 github:
   - any: ['.github/*', '!.github/workflows/']
 github_actions:

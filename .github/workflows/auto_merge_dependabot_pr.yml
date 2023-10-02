@@ -21,7 +21,7 @@ jobs:
           node-version: lts/*
           cache: 'yarn'
 
-      - name: Install dependencies, Check types, Check linting, Run tests, Build storybook, Build
+      - name: Install dependencies, Check linting, Run tests, Build
         run: |
           yarn install --frozen-lockfile
           yarn lint:check
