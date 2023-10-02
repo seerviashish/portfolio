@@ -1209,16 +1209,7 @@
     debug "^4.1.0"
     globals "^11.1.0"
 
-"@babel/types@^7.0.0", "@babel/types@^7.12.6", "@babel/types@^7.20.7", "@babel/types@^7.21.2", "@babel/types@^7.22.5", "@babel/types@^7.3.3", "@babel/types@^7.4.4":
-  version "7.22.5"
-  resolved "https://registry.yarnpkg.com/@babel/types/-/types-7.22.5.tgz#cd93eeaab025880a3a47ec881f4b096a5b786fbe"
-  integrity sha512-zo3MIHGOkPOfoRXitsgHLjEXmlDaD/5KU1Uzuc9GNiZPhSqVxVRtxuPaSBZDsYZ9qV88AjtMtWW7ww98loJ9KA==
-  dependencies:
-    "@babel/helper-string-parser" "^7.22.5"
-    "@babel/helper-validator-identifier" "^7.22.5"
-    to-fast-properties "^2.0.0"
-
-"@babel/types@^7.23.0":
+"@babel/types@^7.0.0", "@babel/types@^7.12.6", "@babel/types@^7.20.7", "@babel/types@^7.21.2", "@babel/types@^7.22.5", "@babel/types@^7.23.0", "@babel/types@^7.3.3", "@babel/types@^7.4.4":
   version "7.23.0"
   resolved "https://registry.yarnpkg.com/@babel/types/-/types-7.23.0.tgz#8c1f020c9df0e737e4e247c0619f58c68458aaeb"
   integrity sha512-0oIyUfKoI3mSqMvsxBdclDwxXKXAUA8v/apZbc+iSyARYou1o8ZGDxbUYyLFoW2arqS2jDGqJuZvv1d/io1axg==
@@ -1806,26 +1797,26 @@
   resolved "https://registry.yarnpkg.com/@leichtgewicht/ip-codec/-/ip-codec-2.0.4.tgz#b2ac626d6cb9c8718ab459166d4bb405b8ffa78b"
   integrity sha512-Hcv+nVC0kZnQ3tD9GVu5xSMR4VVYOteQIr/hwFPVEvPdlXqgGEuRjiheChHgdM+JyqdgNcmzZOX/tnl0JOiI7A==
 
-"@lingui/babel-plugin-extract-messages@4.2.1":
-  version "4.2.1"
-  resolved "https://registry.yarnpkg.com/@lingui/babel-plugin-extract-messages/-/babel-plugin-extract-messages-4.2.1.tgz#456a5977a805416e145a3f939ce8a16ce4fc8244"
-  integrity sha512-tCFs5q6ktSurf244u1b4rvsLADzHzuwTymeNJi9QdjVedIQ8fVGkExKKW2XpuwM8Dv04TwkcB73Xt+Rg5p24kg==
+"@lingui/babel-plugin-extract-messages@4.5.0":
+  version "4.5.0"
+  resolved "https://registry.yarnpkg.com/@lingui/babel-plugin-extract-messages/-/babel-plugin-extract-messages-4.5.0.tgz#71e56cc2eae73890caeea15a00ae4965413430ec"
+  integrity sha512-jZq3Gbi691jsHyQ4+OPnGgIqZt5eKEGnmI75akYlZpwTPxF7n+hiuKlQS+YB3xfKvcvlAED76ZAMCcwYG5fNrQ==
 
-"@lingui/cli@^4.2.1":
-  version "4.2.1"
-  resolved "https://registry.yarnpkg.com/@lingui/cli/-/cli-4.2.1.tgz#ddf292c7059d6985e44016584a0c96f43aa54bfd"
-  integrity sha512-0kKd4EzEq+62aSN5fGbgXa2J0X9ztW7U1nvMJXJHEtVPYAnMtXucSAgQQWtWN3pbwBksppHC18PUU02MkcD70A==
+"@lingui/cli@^4.5.0":
+  version "4.5.0"
+  resolved "https://registry.yarnpkg.com/@lingui/cli/-/cli-4.5.0.tgz#fb8685cb682cf624b6e5b6d1207f8127b98ed95a"
+  integrity sha512-MzhxNUNd+YYEmK79TwmneUow5BuLwpOlrUrZq9EyIAWUM4N6kkCVkZ8VIMYCL4TXGQ4kBQjstgDpkF8wdFRtNg==
   dependencies:
     "@babel/core" "^7.21.0"
     "@babel/generator" "^7.21.1"
     "@babel/parser" "^7.21.2"
     "@babel/runtime" "^7.21.0"
     "@babel/types" "^7.21.2"
-    "@lingui/babel-plugin-extract-messages" "4.2.1"
-    "@lingui/conf" "4.2.1"
-    "@lingui/core" "4.2.1"
-    "@lingui/format-po" "4.2.1"
-    "@lingui/message-utils" "4.2.1"
+    "@lingui/babel-plugin-extract-messages" "4.5.0"
+    "@lingui/conf" "4.5.0"
+    "@lingui/core" "4.5.0"
+    "@lingui/format-po" "4.5.0"
+    "@lingui/message-utils" "4.5.0"
     babel-plugin-macros "^3.0.1"
     chalk "^4.1.0"
     chokidar "3.5.1"
@@ -1858,7 +1849,19 @@
     jiti "^1.17.1"
     lodash.get "^4.4.2"
 
-"@lingui/core@4.2.1", "@lingui/core@^4.2.1":
+"@lingui/conf@4.5.0":
+  version "4.5.0"
+  resolved "https://registry.yarnpkg.com/@lingui/conf/-/conf-4.5.0.tgz#09b39de3a03a9017cd8299b1d8df923c78447ebf"
+  integrity sha512-OBm4RQQtbpvmuazLWVpvpaOpt/xvu1PBv8WUX8QoW1vsROe/3P5BpRHRYFyMeZz5mhORJgis9lQtDTq145Ruug==
+  dependencies:
+    "@babel/runtime" "^7.20.13"
+    chalk "^4.1.0"
+    cosmiconfig "^8.0.0"
+    jest-validate "^29.4.3"
+    jiti "^1.17.1"
+    lodash.get "^4.4.2"
+
+"@lingui/core@4.2.1":
   version "4.2.1"
   resolved "https://registry.yarnpkg.com/@lingui/core/-/core-4.2.1.tgz#60026b68143b76a25ae1de129c76e6ecb98b037e"
   integrity sha512-928PI3fftk/owl1ZPqcK60DgUUktGW5RrMZJdNSxMBpmGtUqOQuj/WW7w69sUFefqsOGOpUY6lR75dwhgqywEA==
@@ -1867,13 +1870,22 @@
     "@lingui/message-utils" "4.2.1"
     unraw "^2.0.1"
 
-"@lingui/format-po@4.2.1":
-  version "4.2.1"
-  resolved "https://registry.yarnpkg.com/@lingui/format-po/-/format-po-4.2.1.tgz#c9e4d9c954025d8d6cf28f7c0e7b45e6dd51d022"
-  integrity sha512-ZyqJn5HAqlr96Z5oZBUx4BQayTXAjMwWYs1UafzeaweqLMuW6FaymBnj1h9mdsXehm9vZrdF7kTMjkLCR1prFA==
+"@lingui/core@4.5.0", "@lingui/core@^4.2.1":
+  version "4.5.0"
+  resolved "https://registry.yarnpkg.com/@lingui/core/-/core-4.5.0.tgz#8b907238bd0b420b372272d0a757c56bed3aed14"
+  integrity sha512-8zTuIXJo5Qvjato7LWE6Q4RHiO4LjTBVOoRlqfOGYDp8VZ9w9P7Z7IJgxI7UP5Z1wiuEvnMdVF9I1C4acqXGlQ==
   dependencies:
-    "@lingui/conf" "4.2.1"
-    "@lingui/message-utils" "4.2.1"
+    "@babel/runtime" "^7.20.13"
+    "@lingui/message-utils" "4.5.0"
+    unraw "^3.0.0"
+
+"@lingui/format-po@4.5.0":
+  version "4.5.0"
+  resolved "https://registry.yarnpkg.com/@lingui/format-po/-/format-po-4.5.0.tgz#88dabeaa565ce5e4ff2a1b9865da7759b393af27"
+  integrity sha512-xQNzZ4RCQfh6TjzjUsyHz3B0R9FJuzhBit9R37NyMn6mL3kBTCUExpPczknm8gWZjtfFO4T8EH5eJhhC5vgJYg==
+  dependencies:
+    "@lingui/conf" "4.5.0"
+    "@lingui/message-utils" "4.5.0"
     date-fns "^2.29.3"
     pofile "^1.1.4"
 
@@ -1892,6 +1904,13 @@
   version "4.2.1"
   resolved "https://registry.yarnpkg.com/@lingui/message-utils/-/message-utils-4.2.1.tgz#586eb273359ada8c5e9e8816db28913b6218158e"
   integrity sha512-131v+j82uS10gBDyjOBdKmQKKO1dc0nYx3MSUu9RK+EnPItRcaME3LBaJ4UJs5Nb1niZOX2yeMKarGAkvwFyPA==
+  dependencies:
+    "@messageformat/parser" "^5.0.0"
+
+"@lingui/message-utils@4.5.0":
+  version "4.5.0"
+  resolved "https://registry.yarnpkg.com/@lingui/message-utils/-/message-utils-4.5.0.tgz#7ae9dc6cb65cbb5e2dc1b8cdcc4c8b92d5c7189f"
+  integrity sha512-iRqh2wvNtzJO3NStB77nEXEfeI53aVVjzD7/mBrEm/P0lC7sqPHk0WBQCfzE0N9xm6a+XHmHu3J+x2nnQ2OjcA==
   dependencies:
     "@messageformat/parser" "^5.0.0"
 
@@ -9839,6 +9858,11 @@ unraw@^2.0.1:
   version "2.0.1"
   resolved "https://registry.yarnpkg.com/unraw/-/unraw-2.0.1.tgz#7b51dcdfb1e43d59d5e52cdb44d349d029edbaba"
   integrity sha512-tdOvLfRzHolwYcHS6HIX860MkK9LQ4+oLuNwFYL7bpgTEO64PZrcQxkisgwJYCfF8sKiWLwwu1c83DvMkbefIQ==
+
+unraw@^3.0.0:
+  version "3.0.0"
+  resolved "https://registry.yarnpkg.com/unraw/-/unraw-3.0.0.tgz#73443ed70d2ab09ccbac2b00525602d5991fbbe3"
+  integrity sha512-08/DA66UF65OlpUDIQtbJyrqTR0jTAlJ+jsnkQ4jxR7+K5g5YG1APZKQSMCE1vqqmD+2pv6+IdEjmopFatacvg==
 
 upath@^1.2.0:
   version "1.2.0"
