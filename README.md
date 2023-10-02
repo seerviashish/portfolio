@@ -1,6 +1,36 @@
-# Getting Started with Create React App
+# PORTFOLIO
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+![main](https://github.com/seerviashish/portfolio/actions/workflows/main.yml/badge.svg) ![codeql](https://github.com/seerviashish/portfolio/actions/workflows/codeql.yml/badge.svg) [![npm version](https://badgen.net/npm/v/portfolio)](https://npm.im/portfolio) [![npm downloads](https://badgen.net/npm/dm/portfolio)](https://npm.im/portfolio)
+
+## Portfolio Project.
+
+- Portfolio is a kind of resume provides all activity during whole career with very interactive way. It is using three.js for 3D experience
+
+## How to set up a project?
+
+1. Clone a repository.
+
+```bash
+git clone https://github.com/seerviashish/portfolio.git
+```
+
+- If you are using ssh, use the below command to clone the repository
+
+```bash
+git clone https://github.com/seerviashish/portfolio.git
+```
+
+2. Go to portfolio folder.
+
+```bash
+cd portfolio
+```
+
+3. Install dependencies using yarn.
+
+```bash
+yarn
+```
 
 ## Available Scripts
 
