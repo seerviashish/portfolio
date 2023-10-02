@@ -59,7 +59,7 @@
   },
   "devDependencies": {
     "@lingui/cli": "^4.2.1",
-    "@lingui/core": "^4.2.1",
+    "@lingui/core": "^4.5.0",
     "@lingui/macro": "^4.2.1",
     "@lingui/react": "^4.2.1",
     "@tanstack/eslint-plugin-query": "^4.29.9",
