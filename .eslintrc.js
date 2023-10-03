@@ -6,6 +6,7 @@ module.exports = {
   },
   extends: [
     'standard-with-typescript',
+    'plugin:@typescript-eslint/recommended',
     'plugin:react/recommended',
     'plugin:react/jsx-runtime',
     'plugin:react-hooks/recommended',
@@ -38,8 +39,9 @@ module.exports = {
       jsx: true,
     },
   },
-  plugins: ['react', '@typescript-eslint', '@tanstack/query'],
+  plugins: ['react', '@typescript-eslint', '@tanstack/query', 'prettier'],
   rules: {
     'react/no-unknown-property': 0,
+    'react/prop-types': 0,
   },
 }

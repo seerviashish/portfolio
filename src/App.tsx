@@ -1,16 +1,15 @@
 import { Canvas } from '@react-three/fiber'
 import { type FC } from 'react'
+import Box from './objects/Box'
 
 const App: FC = () => {
   return (
-    <div className='w-full h-screen' id='canvas-container'>
+    <div className='w-full h-screen bg-black' id='canvas-container'>
       <Canvas shadows>
-        <ambientLight intensity={0.1} />
-        <directionalLight color='black' position={[0, 0, 5]} />
-        <mesh>
-          <boxGeometry args={[4, 0.2, 0]} />
-          <meshStandardMaterial />
-        </mesh>
+        <ambientLight />
+        <pointLight position={[10, 10, 10]} />
+        <Box position={[-1.2, 0, 0]} />
+        <Box position={[1.2, 0, 0]} />
       </Canvas>
     </div>
   )
