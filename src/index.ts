@@ -1,14 +1,5 @@
+import App, { IApp } from './App'
 import './style.css'
-
-interface IApp {
-  init: () => Promise<void>
-}
-
-class App implements IApp {
-  async init() {
-    console.log('Hello World!')
-  }
-}
 
 declare global {
   interface Window {
