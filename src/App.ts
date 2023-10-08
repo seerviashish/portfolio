@@ -1,4 +1,4 @@
-import { Color, PerspectiveCamera, Renderer, Scene, WebGLRenderer } from 'three'
+import { AxesHelper, Color, PerspectiveCamera, Renderer, Scene, WebGLRenderer } from 'three'
 import Stats from 'three/examples/jsm/libs/stats.module'
 import { Pane } from 'tweakpane'
 import Cube from './objects/Cube'
@@ -14,6 +14,8 @@ export default class App implements IApp {
   private cube?: Cube
   private stats?: Stats
   private pane?: Pane
+  private axesHelper?: AxesHelper
+  // private orbitControls?:
   private cubeParams: { x: number; y: number; z: number; dx: number; dy: number; dz: number } = {
     x: 0,
     y: 0,
@@ -85,9 +87,19 @@ export default class App implements IApp {
     cubePane.addBinding(this.cubeParams, 'dz')
   }
 
+  addAxesHelper = (): void => {
+    if (this.isProduction()) return
+    this.axesHelper = new AxesHelper(100)
+    this.axesHelper.position.z = -5
+    this.scene.add(this.axesHelper)
+  }
+
+  addOrbitalControls = (): void => {}
+
   async init() {
     this.scene.background = new Color(0x000000)
     document.body.appendChild(this.renderer.domElement)
+    this.addAxesHelper()
     this.addStats()
     this.addPane()
     window.addEventListener('resize', this.handleOnWindowResize)
