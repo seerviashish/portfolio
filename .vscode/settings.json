@@ -8,5 +8,5 @@
     "source.organizeImports": true
   },
   "eslint.validate": ["javascript", "javascruptreact", "typescript", "typescriptreact"],
-  "cSpell.words": ["Ashish", "Chaudhary", "lingui", "threejs", "tweakpane"]
+  "cSpell.words": ["Ashish", "Chaudhary", "lingui", "threejs", "tweakpane", "wireframe"]
 }
