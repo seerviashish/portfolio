@@ -8,6 +8,6 @@ declare global {
 }
 
 window.onload = () => {
-  window.App = new App()
+  window.App = App.getInstance()
   window.App.init()
 }
