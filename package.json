@@ -65,7 +65,7 @@
       "eslint"
     ],
     "*": [
-      "prettier --check --ignore-unkown"
+      "prettier --check --ignore-unknown"
     ]
   }
 }

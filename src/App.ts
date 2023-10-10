@@ -1,4 +1,13 @@
-import { AxesHelper, Color, PerspectiveCamera, Renderer, Scene, WebGLRenderer } from 'three'
+import {
+  AxesHelper,
+  Color,
+  GridHelper,
+  PerspectiveCamera,
+  Renderer,
+  Scene,
+  WebGLRenderer,
+} from 'three'
+import { OrbitControls } from 'three/examples/jsm/controls/OrbitControls'
 import Stats from 'three/examples/jsm/libs/stats.module'
 import { Pane } from 'tweakpane'
 import Cube from './objects/Cube'
@@ -15,11 +24,12 @@ export default class App implements IApp {
   private stats?: Stats
   private pane?: Pane
   private axesHelper?: AxesHelper
-  // private orbitControls?:
+  private gridHelper?: GridHelper
+  private orbitControls?: OrbitControls
   private cubeParams: { x: number; y: number; z: number; dx: number; dy: number; dz: number } = {
     x: 0,
     y: 0,
-    z: -5,
+    z: 0,
     dx: 0.01,
     dy: 0.01,
     dz: 0,
@@ -37,6 +47,9 @@ export default class App implements IApp {
     this.scene = new Scene()
     this.renderer.setSize(window.innerWidth, window.innerHeight)
     this.camera = new PerspectiveCamera(75, window.innerWidth / window.innerHeight, 0.1, 1000)
+    this.camera.position.z = 10
+    this.camera.position.y = 10
+    this.camera.position.x = 10
   }
 
   handleOnWindowResize = () => {
@@ -90,16 +103,26 @@ export default class App implements IApp {
   addAxesHelper = (): void => {
     if (this.isProduction()) return
     this.axesHelper = new AxesHelper(100)
-    this.axesHelper.position.z = -5
     this.scene.add(this.axesHelper)
   }
 
-  addOrbitalControls = (): void => {}
+  addGridHelper = (): void => {
+    if (this.isProduction()) return
+    this.gridHelper = new GridHelper(100, 100)
+    this.scene.add(this.gridHelper)
+  }
+
+  addOrbitalControls = (): void => {
+    if (this.isProduction()) return
+    this.orbitControls = new OrbitControls(this.camera, this.renderer.domElement)
+  }
 
   async init() {
     this.scene.background = new Color(0x000000)
     document.body.appendChild(this.renderer.domElement)
     this.addAxesHelper()
+    this.addGridHelper()
+    this.addOrbitalControls()
     this.addStats()
     this.addPane()
     window.addEventListener('resize', this.handleOnWindowResize)
