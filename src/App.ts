@@ -1,4 +1,5 @@
 import {
+  AmbientLight,
   AxesHelper,
   Color,
   GridHelper,
@@ -12,6 +13,7 @@ import Stats from 'three/examples/jsm/libs/stats.module'
 import { FBXLoader } from 'three/examples/jsm/loaders/FBXLoader'
 import { Pane } from 'tweakpane'
 import Cube from './objects/Cube'
+import { AssetLoader } from './utils/AssetLoader'
 export interface IApp {
   init: () => Promise<void>
 }
@@ -27,6 +29,7 @@ export default class App implements IApp {
   private axesHelper?: AxesHelper
   private gridHelper?: GridHelper
   private orbitControls?: OrbitControls
+  private ambientLight?: AmbientLight
   private fbxLoader: FBXLoader
   private cubeParams: { x: number; y: number; z: number; dx: number; dy: number; dz: number } = {
     x: 0,
@@ -120,6 +123,11 @@ export default class App implements IApp {
     this.orbitControls = new OrbitControls(this.camera, this.renderer.domElement)
   }
 
+  addAmbientLight = (): void => {
+    this.ambientLight = new AmbientLight(0xffffff, Math.PI * 2)
+    this.scene.add(this.ambientLight)
+  }
+
   addTree = (): void => {
     this.fbxLoader.load(
       '/models/Trees/OakTree1.fbx',
@@ -136,9 +144,16 @@ export default class App implements IApp {
     )
   }
 
+  async loadAsset(): Promise<void> {
+    const assetLoader = AssetLoader.getInstance()
+    assetLoader.loadAssets()
+  }
+
   async init() {
     this.scene.background = new Color(0x000000)
     document.body.appendChild(this.renderer.domElement)
+    this.loadAsset()
+    this.addAmbientLight()
     this.addAxesHelper()
     this.addGridHelper()
     this.addOrbitalControls()
