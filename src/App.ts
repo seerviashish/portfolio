@@ -9,6 +9,7 @@ import {
 } from 'three'
 import { OrbitControls } from 'three/examples/jsm/controls/OrbitControls'
 import Stats from 'three/examples/jsm/libs/stats.module'
+import { FBXLoader } from 'three/examples/jsm/loaders/FBXLoader'
 import { Pane } from 'tweakpane'
 import Cube from './objects/Cube'
 export interface IApp {
@@ -26,6 +27,7 @@ export default class App implements IApp {
   private axesHelper?: AxesHelper
   private gridHelper?: GridHelper
   private orbitControls?: OrbitControls
+  private fbxLoader: FBXLoader
   private cubeParams: { x: number; y: number; z: number; dx: number; dy: number; dz: number } = {
     x: 0,
     y: 0,
@@ -50,6 +52,7 @@ export default class App implements IApp {
     this.camera.position.z = 10
     this.camera.position.y = 10
     this.camera.position.x = 10
+    this.fbxLoader = new FBXLoader()
   }
 
   handleOnWindowResize = () => {
@@ -117,6 +120,22 @@ export default class App implements IApp {
     this.orbitControls = new OrbitControls(this.camera, this.renderer.domElement)
   }
 
+  addTree = (): void => {
+    this.fbxLoader.load(
+      '/models/Trees/OakTree1.fbx',
+      (object) => {
+        object.scale.set(0.01, 0.01, 0.01)
+        this.scene.add(object)
+      },
+      (xhr) => {
+        console.log((xhr.loaded / xhr.total) * 100 + '% loaded')
+      },
+      (error) => {
+        console.log(error)
+      },
+    )
+  }
+
   async init() {
     this.scene.background = new Color(0x000000)
     document.body.appendChild(this.renderer.domElement)
@@ -125,6 +144,7 @@ export default class App implements IApp {
     this.addOrbitalControls()
     this.addStats()
     this.addPane()
+    this.addTree()
     window.addEventListener('resize', this.handleOnWindowResize)
     this.animate()
     this.initCube()
