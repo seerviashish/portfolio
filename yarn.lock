@@ -2318,14 +2318,16 @@
     uuid "^9.0.1"
     zustand "^3.5.13"
 
-"@react-three/fiber@^8.14.6":
-  version "8.14.6"
-  resolved "https://registry.yarnpkg.com/@react-three/fiber/-/fiber-8.14.6.tgz#963fa93b47695f6fee68e9fb563062428d6f1c73"
-  integrity sha512-w+9+CqFxYu1QPe2ZjitIdS5sns+Ow/MIqBnUDQ9x9JRcgql7sTbjFvXbR4gSeb0RWd+WCyGpGueRMJFPNbUUdA==
+"@react-three/fiber@^8.15.4":
+  version "8.15.4"
+  resolved "https://registry.yarnpkg.com/@react-three/fiber/-/fiber-8.15.4.tgz#d276d8c10b1505f60ef408179f0bdd7aff620a9f"
+  integrity sha512-Wee6fBKD++jF3dMC1nPOYdUwFMnIkWPCb6D7PxoEhmYj7hnDDDEZJN7jigoNt2985fFD72bq6BpvML1GSb7qHA==
   dependencies:
     "@babel/runtime" "^7.17.8"
     "@types/react-reconciler" "^0.26.7"
+    "@types/webxr" "*"
     base64-js "^1.5.1"
+    buffer "^6.0.3"
     its-fine "^1.0.6"
     react-reconciler "^0.27.0"
     react-use-measure "^2.1.1"
@@ -4008,6 +4010,14 @@ buffer@^5.5.0:
   dependencies:
     base64-js "^1.3.1"
     ieee754 "^1.1.13"
+
+buffer@^6.0.3:
+  version "6.0.3"
+  resolved "https://registry.yarnpkg.com/buffer/-/buffer-6.0.3.tgz#2ace578459cc8fbe2a70aaa8f52ee63b6a74c6c6"
+  integrity sha512-FTiCpNxtwiZZHEZbcbTIcZjERVICn9yq/pDFkTl95/AxzD1naBctN7YO68riM/gLSDY7sdrMby8hofADYuuqOA==
+  dependencies:
+    base64-js "^1.3.1"
+    ieee754 "^1.2.1"
 
 builtin-modules@^3.1.0:
   version "3.3.0"
@@ -6768,7 +6778,7 @@ identity-obj-proxy@^3.0.0:
   dependencies:
     harmony-reflect "^1.4.6"
 
-ieee754@^1.1.13:
+ieee754@^1.1.13, ieee754@^1.2.1:
   version "1.2.1"
   resolved "https://registry.yarnpkg.com/ieee754/-/ieee754-1.2.1.tgz#8eb7a10a63fff25d15a57b001586d177d1b0d352"
   integrity sha512-dcyqhDvX1C46lXZcVqCpK+FtMRQVdIMN6/Df5js2zouUsqG7I6sFxitIC+7KYK29KdXOLHdu9zL4sFnoVQnqaA==
