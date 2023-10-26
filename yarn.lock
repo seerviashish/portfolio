@@ -2318,10 +2318,10 @@
     uuid "^9.0.1"
     zustand "^3.5.13"
 
-"@react-three/fiber@^8.15.6":
-  version "8.15.6"
-  resolved "https://registry.yarnpkg.com/@react-three/fiber/-/fiber-8.15.6.tgz#1b86cd8384aca104188555ba24bae7c288b11890"
-  integrity sha512-CAswhccDVe5myOX2RvdBQYCRXTTlQ529HIVnvvtWn8Kd6pg2aaSM5pT9GX2OLp/K/DI+AvLw5Fp+cKO8qD7BMw==
+"@react-three/fiber@^8.15.8":
+  version "8.15.8"
+  resolved "https://registry.yarnpkg.com/@react-three/fiber/-/fiber-8.15.8.tgz#4f62889b824e46c84082a450725b96dd087f2ad0"
+  integrity sha512-AWDicsy3baDi3AJUaFxJp6+o6TWINuF+z/7JMxT/HBmaVpolY7mWUi9B02oWaifCf+sEDSNVwAGQ9ed86e9qLg==
   dependencies:
     "@babel/runtime" "^7.17.8"
     "@types/react-reconciler" "^0.26.7"
