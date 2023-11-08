@@ -2967,10 +2967,10 @@
   resolved "https://registry.yarnpkg.com/@types/stats.js/-/stats.js-0.17.1.tgz#3066e95031f013b0e01d723fb7207c79fd75e6a0"
   integrity sha512-OgfYE1x2w1jRUXzzKABX+kOdwz2y9PE0uSwnZabkWfJTWOzm7Pvfm4JI2xqRE0q2nwUe2jZLWcrcnhd9lQU63w==
 
-"@types/three@^0.158.1":
-  version "0.158.1"
-  resolved "https://registry.yarnpkg.com/@types/three/-/three-0.158.1.tgz#b1b96752ebb3a27b462251489938ee0fb03a18e2"
-  integrity sha512-U7SimpoMrlpY2TjYedb9sQeOVHdRWJEiaNQxywJETMGMoEhWEfpP0sywRADR/xOQbaixZ6lk5Hv+3IOFriprkw==
+"@types/three@^0.158.2":
+  version "0.158.2"
+  resolved "https://registry.yarnpkg.com/@types/three/-/three-0.158.2.tgz#5c3bf3406cd474592e301daf991b49e46e1e6e0c"
+  integrity sha512-KPYbdLI8VPhu7qnHqsayfkuk58Qk+20l1U5HBK7uG50EjtrqeCreurNNpnatMZje29XRuTM1A+pGHGdDBHPyUQ==
   dependencies:
     "@types/stats.js" "*"
     "@types/webxr" "*"
