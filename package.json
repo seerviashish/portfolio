@@ -16,7 +16,7 @@
     "@types/jest": "^29.5.9",
     "@types/node": "^20.9.4",
     "@types/react": "^18.2.36",
-    "@types/react-dom": "^18.2.16",
+    "@types/react-dom": "^18.2.17",
     "@types/three": "^0.158.2",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
