@@ -2329,10 +2329,10 @@
     three "0.122.0"
     use-error-boundary "2.0.6"
 
-"@react-three/rapier@^1.2.0":
-  version "1.2.0"
-  resolved "https://registry.yarnpkg.com/@react-three/rapier/-/rapier-1.2.0.tgz#31ea22a36953063e50ab23f91dfcafe25370cb05"
-  integrity sha512-NlUgCf8xQpLIKjTkM0+EWUmNKVn1w1rFuPdbUKR3W2qvTZmJr36tAaoI5f2tPHoD81YleulcXjd/u8OeKTSz1Q==
+"@react-three/rapier@^1.2.1":
+  version "1.2.1"
+  resolved "https://registry.yarnpkg.com/@react-three/rapier/-/rapier-1.2.1.tgz#c752770b7b0fc27b1079e04a55fee0cc62b3507a"
+  integrity sha512-h22uqwvMBVVmwfe37fs0tF3u+gNDJv/LzS4lRYnZ4IaHZPlprAjvccef6R7pFlW2EU/o26HhzTMoE5/Btkdcew==
   dependencies:
     "@dimforge/rapier3d-compat" "0.11.2"
     three-stdlib "2.23.9"
