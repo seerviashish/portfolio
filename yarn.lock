@@ -2260,10 +2260,10 @@
     utility-types "^3.10.0"
     zustand "^3.2.0"
 
-"@react-three/drei@^9.92.3":
-  version "9.92.3"
-  resolved "https://registry.yarnpkg.com/@react-three/drei/-/drei-9.92.3.tgz#a5966780544cfe6b5297ade7f8f32f7c9f32719c"
-  integrity sha512-Ci4JeidQO12rqXm3GQjZmEXILVCxptqMssMa97qeVFJUdIY1AXrufWdRlIVePYoQ9dRDRsn6gn5F/wWfA5SJUQ==
+"@react-three/drei@^9.92.4":
+  version "9.92.4"
+  resolved "https://registry.yarnpkg.com/@react-three/drei/-/drei-9.92.4.tgz#8299783c0c4aa2549151bd476435832956477eef"
+  integrity sha512-CbRd9lkdpY1T0NPVmkLwrZ39S67cDmkk8rGHtMQX6hb8GUb6Cx+GDck4L2K0umEpeQh9PC6ypUARxy+k8vpeIA==
   dependencies:
     "@babel/runtime" "^7.11.2"
     "@mediapipe/tasks-vision" "0.10.8"
@@ -2276,7 +2276,7 @@
     lodash.clamp "^4.0.3"
     lodash.omit "^4.5.0"
     lodash.pick "^4.4.0"
-    maath "^0.9.0"
+    maath "^0.10.7"
     meshline "^3.1.6"
     react-composer "^5.0.3"
     react-merge-refs "^1.1.0"
@@ -8341,10 +8341,10 @@ lz-string@^1.5.0:
   resolved "https://registry.yarnpkg.com/lz-string/-/lz-string-1.5.0.tgz#c1ab50f77887b712621201ba9fd4e3a6ed099941"
   integrity sha512-h5bgJWpxJNswbU7qCrV0tIKQCaS3blPDrqKWx+QxzuzL1zGUzij9XCWLrSLsJPu5t+eWA/ycetzYAO5IOMcWAQ==
 
-maath@^0.9.0:
-  version "0.9.0"
-  resolved "https://registry.yarnpkg.com/maath/-/maath-0.9.0.tgz#425a9600dfc5d0aecfa48029a2e3eea852531b06"
-  integrity sha512-aAR8hoUqPxlsU8VOxkS9y37jhUzdUxM017NpCuxFU1Gk+nMaZASZxymZrV8LRSHzRk/watlbfyNKu6XPUhCFrQ==
+maath@^0.10.7:
+  version "0.10.7"
+  resolved "https://registry.yarnpkg.com/maath/-/maath-0.10.7.tgz#9289b42a5db8ac5b26407b3bfca4e3bebefe50b4"
+  integrity sha512-zQ2xd7dNOIVTjAS+hj22fyj1EFYmOJX6tzKjZ92r6WDoq8hyFxjuGA2q950tmR4iC/EKXoMQdSipkaJVuUHDTg==
 
 magic-string@^0.25.0, magic-string@^0.25.7:
   version "0.25.9"
