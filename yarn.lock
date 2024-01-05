@@ -2038,22 +2038,22 @@
     jiti "^1.17.1"
     lodash.get "^4.4.2"
 
-"@lingui/core@4.5.0":
-  version "4.5.0"
-  resolved "https://registry.yarnpkg.com/@lingui/core/-/core-4.5.0.tgz#8b907238bd0b420b372272d0a757c56bed3aed14"
-  integrity sha512-8zTuIXJo5Qvjato7LWE6Q4RHiO4LjTBVOoRlqfOGYDp8VZ9w9P7Z7IJgxI7UP5Z1wiuEvnMdVF9I1C4acqXGlQ==
-  dependencies:
-    "@babel/runtime" "^7.20.13"
-    "@lingui/message-utils" "4.5.0"
-    unraw "^3.0.0"
-
-"@lingui/core@4.6.0", "@lingui/core@^4.2.1":
+"@lingui/core@4.6.0":
   version "4.6.0"
   resolved "https://registry.yarnpkg.com/@lingui/core/-/core-4.6.0.tgz#f965cb2cedfb663bc6d1f2850349eff2cd92bf26"
   integrity sha512-waqozTXrCCm/Rc0GLTlri9+kzNGK7q/beoZG9GjsC1g3HRtTiZWdn0pe3L16YVLHhmoJEXYlAfhsbU5g+A3bfg==
   dependencies:
     "@babel/runtime" "^7.20.13"
     "@lingui/message-utils" "4.6.0"
+    unraw "^3.0.0"
+
+"@lingui/core@4.7.0", "@lingui/core@^4.2.1":
+  version "4.7.0"
+  resolved "https://registry.yarnpkg.com/@lingui/core/-/core-4.7.0.tgz#27957dd9ed599cedb5bebb2248b4254502e89e2e"
+  integrity sha512-lr6CMDRztFgS5qna9pLA/MPZRgujN9SCIoQ1LvGZem94U4Qc7ptSwAG1LIET9b3qxRXJm5XOTrq0HefN2Qm1IA==
+  dependencies:
+    "@babel/runtime" "^7.20.13"
+    "@lingui/message-utils" "4.7.0"
     unraw "^3.0.0"
 
 "@lingui/format-po@4.6.0":
@@ -2077,13 +2077,6 @@
     "@lingui/core" "4.6.0"
     "@lingui/message-utils" "4.6.0"
 
-"@lingui/message-utils@4.5.0":
-  version "4.5.0"
-  resolved "https://registry.yarnpkg.com/@lingui/message-utils/-/message-utils-4.5.0.tgz#7ae9dc6cb65cbb5e2dc1b8cdcc4c8b92d5c7189f"
-  integrity sha512-iRqh2wvNtzJO3NStB77nEXEfeI53aVVjzD7/mBrEm/P0lC7sqPHk0WBQCfzE0N9xm6a+XHmHu3J+x2nnQ2OjcA==
-  dependencies:
-    "@messageformat/parser" "^5.0.0"
-
 "@lingui/message-utils@4.6.0":
   version "4.6.0"
   resolved "https://registry.yarnpkg.com/@lingui/message-utils/-/message-utils-4.6.0.tgz#857b22f1ba8b5d7baaa97e0344ed469f911a0ed9"
@@ -2092,13 +2085,21 @@
     "@messageformat/parser" "^5.0.0"
     js-sha256 "^0.10.1"
 
-"@lingui/react@^4.5.0":
-  version "4.5.0"
-  resolved "https://registry.yarnpkg.com/@lingui/react/-/react-4.5.0.tgz#1cae72e89890f8d270b37cdde051a3c69df97727"
-  integrity sha512-dv/oxBshyaVJ3XzbPDnWn3abhwtaS1sx8cEO2qDjs+OhW0AeWD9hyVDrduf5SBIuXFJfJQNNA8+2P2nO0lxRbQ==
+"@lingui/message-utils@4.7.0":
+  version "4.7.0"
+  resolved "https://registry.yarnpkg.com/@lingui/message-utils/-/message-utils-4.7.0.tgz#48f72b924000fe70e4feb89a13b49cfc41a3a397"
+  integrity sha512-JrGdxORRzefOh9qAkQYJchh+ehnWlLK9/kOG9x6VkV9aekWLk8vCVbXBh4Q707sTcIgCki8KwT1yuBMwZ2YBEg==
+  dependencies:
+    "@messageformat/parser" "^5.0.0"
+    js-sha256 "^0.10.1"
+
+"@lingui/react@^4.7.0":
+  version "4.7.0"
+  resolved "https://registry.yarnpkg.com/@lingui/react/-/react-4.7.0.tgz#521cc1e21fa9c3830caf962e03f8d2f44397f6be"
+  integrity sha512-a9SR+U6hobOL+/GPR11gObg9cOzQ4mcGhtUbXQx/WjlWDsau29oXna4vA5pRYiq58dpPXYrsg+ZENsXxNERCwA==
   dependencies:
     "@babel/runtime" "^7.20.13"
-    "@lingui/core" "4.5.0"
+    "@lingui/core" "4.7.0"
 
 "@mediapipe/tasks-vision@0.10.8":
   version "0.10.8"
