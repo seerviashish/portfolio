@@ -2289,10 +2289,10 @@
     utility-types "^3.10.0"
     zustand "^3.2.0"
 
-"@react-three/drei@^9.96.3":
-  version "9.96.3"
-  resolved "https://registry.yarnpkg.com/@react-three/drei/-/drei-9.96.3.tgz#37da2310a7dbc019b7eec1b801982c93aa62a50a"
-  integrity sha512-eHSYZO8BWPiYxmFwf+G76n6b2oFyXQXb5TDOrvi6tuGLFbuhgWmWU9XPJ+WYJMJREdgBYaJsk3QTNeBJaHr0SA==
+"@react-three/drei@^9.96.5":
+  version "9.96.5"
+  resolved "https://registry.yarnpkg.com/@react-three/drei/-/drei-9.96.5.tgz#9ace2f8fe56e2050e1ea6792dadb8d4dbcb2042a"
+  integrity sha512-mEf8y8S0FCdCryfbKJ1vghYzMgI+7bgssEeerBBwCk4pi7h8OeavWISXb7QzY9dQLbPm5lL/X0PC7qLE6VUKww==
   dependencies:
     "@babel/runtime" "^7.11.2"
     "@mediapipe/tasks-vision" "0.10.8"
