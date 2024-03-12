@@ -2527,10 +2527,10 @@
     "@svgr/plugin-svgo" "^5.5.0"
     loader-utils "^2.0.0"
 
-"@tanstack/eslint-plugin-query@^5.20.1":
-  version "5.20.1"
-  resolved "https://registry.yarnpkg.com/@tanstack/eslint-plugin-query/-/eslint-plugin-query-5.20.1.tgz#861afedd7cde6b98c88cf86a5923bb659122e7af"
-  integrity sha512-oIp7Wh90KHOm1FKCvcv87fiD2H96xo/crFrlhbvqBzR2f0tMEGOK/ANKMGNFQprd6BT6lyZhQPlOEkFdezsjIg==
+"@tanstack/eslint-plugin-query@^5.27.3":
+  version "5.27.3"
+  resolved "https://registry.yarnpkg.com/@tanstack/eslint-plugin-query/-/eslint-plugin-query-5.27.3.tgz#ae107e9f85b32bfa527cc36145fa3f9011b4ab6c"
+  integrity sha512-yx0/MtUq5WzRpwbKdBrPyw8BHAcxpvzyLnOpzAMGmZ+vhu/8ILIuRb6NKkTIksttLm0ZXyQeIaHKDQwXycHy6A==
   dependencies:
     "@typescript-eslint/utils" "^6.20.0"
 
