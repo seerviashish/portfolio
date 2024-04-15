@@ -2050,6 +2050,15 @@
     jiti "^1.17.1"
     lodash.get "^4.4.2"
 
+"@lingui/core@4.10.0", "@lingui/core@^4.8.0":
+  version "4.10.0"
+  resolved "https://registry.yarnpkg.com/@lingui/core/-/core-4.10.0.tgz#7944cd49e3f6778f7a7be98f7ab64ccb0ec53b5f"
+  integrity sha512-KfwkghuCVFt3AxZlAIotTvIcopIpHj4prwG9v6iyrksLXoxKPQMBXutYGl/EIZE1KYQZdR6rjAaoilMl0pSGKA==
+  dependencies:
+    "@babel/runtime" "^7.20.13"
+    "@lingui/message-utils" "4.10.0"
+    unraw "^3.0.0"
+
 "@lingui/core@4.7.2":
   version "4.7.2"
   resolved "https://registry.yarnpkg.com/@lingui/core/-/core-4.7.2.tgz#b42272e041dc7a9d698d19d3c2899e5840ae22c0"
@@ -2059,7 +2068,7 @@
     "@lingui/message-utils" "4.7.2"
     unraw "^3.0.0"
 
-"@lingui/core@4.8.0", "@lingui/core@^4.8.0":
+"@lingui/core@4.8.0":
   version "4.8.0"
   resolved "https://registry.yarnpkg.com/@lingui/core/-/core-4.8.0.tgz#9d94857e50e82b118d75074cbed41c1358c76ae0"
   integrity sha512-csETD7Vi2SSvH1F+gASGPf9TISoQFxA3YTB7MbRthtqK73TtWbEAmNtztIYPjPtNQemd7GwFztT/X6OANbjYhA==
@@ -2089,6 +2098,14 @@
     "@lingui/core" "4.8.0"
     "@lingui/message-utils" "4.8.0"
 
+"@lingui/message-utils@4.10.0":
+  version "4.10.0"
+  resolved "https://registry.yarnpkg.com/@lingui/message-utils/-/message-utils-4.10.0.tgz#2d575c5f2808b275c56495343b78c0b47d4443e6"
+  integrity sha512-p9Z4L4//ef1jpwqUR0hnILPbbqhVOXkLktY/EsZ7LMmvn18yhq4FjCtGsrorclTcTdtl0l7bqW4iEpEqGW91Gw==
+  dependencies:
+    "@messageformat/parser" "^5.0.0"
+    js-sha256 "^0.10.1"
+
 "@lingui/message-utils@4.7.2":
   version "4.7.2"
   resolved "https://registry.yarnpkg.com/@lingui/message-utils/-/message-utils-4.7.2.tgz#75ec495e59c331009c38ba7169c25ce3aad0145a"
@@ -2105,13 +2122,13 @@
     "@messageformat/parser" "^5.0.0"
     js-sha256 "^0.10.1"
 
-"@lingui/react@^4.7.2":
-  version "4.7.2"
-  resolved "https://registry.yarnpkg.com/@lingui/react/-/react-4.7.2.tgz#3e7912e53e60184f9e9f995f34eb538c1e3a0c08"
-  integrity sha512-7pbeGQ+vLiaW83yB44LgdA2amBFCp/Mr34WRom14NdOWvMnREt3jUHgAuPd/15TGVkUBqia1vTJSjgF/BabR1A==
+"@lingui/react@^4.10.0":
+  version "4.10.0"
+  resolved "https://registry.yarnpkg.com/@lingui/react/-/react-4.10.0.tgz#56dce040659c94c1125640f8e399f68164b44ade"
+  integrity sha512-QBbgKnIEePbt2ktq/6AVi9q91TRbwvcdrruOMu3qqXBqcF4KMu7rf05M9tvk/cClTjImuOF+FI3k+MX6LGnnYQ==
   dependencies:
     "@babel/runtime" "^7.20.13"
-    "@lingui/core" "4.7.2"
+    "@lingui/core" "4.10.0"
 
 "@mediapipe/tasks-vision@0.10.8":
   version "0.10.8"
