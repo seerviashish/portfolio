@@ -69,7 +69,7 @@
     "@babel/plugin-proposal-private-property-in-object": "^7.21.11",
     "@lingui/cli": "^4.7.2",
     "@lingui/core": "^4.10.0",
-    "@lingui/macro": "^4.8.0",
+    "@lingui/macro": "^4.10.1",
     "@lingui/react": "^4.10.0",
     "@tanstack/eslint-plugin-query": "^5.32.1",
     "@typescript-eslint/eslint-plugin": "^5.50.0",
