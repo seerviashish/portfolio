@@ -2050,15 +2050,6 @@
     jiti "^1.17.1"
     lodash.get "^4.4.2"
 
-"@lingui/core@4.10.0":
-  version "4.10.0"
-  resolved "https://registry.yarnpkg.com/@lingui/core/-/core-4.10.0.tgz#7944cd49e3f6778f7a7be98f7ab64ccb0ec53b5f"
-  integrity sha512-KfwkghuCVFt3AxZlAIotTvIcopIpHj4prwG9v6iyrksLXoxKPQMBXutYGl/EIZE1KYQZdR6rjAaoilMl0pSGKA==
-  dependencies:
-    "@babel/runtime" "^7.20.13"
-    "@lingui/message-utils" "4.10.0"
-    unraw "^3.0.0"
-
 "@lingui/core@4.11.0":
   version "4.11.0"
   resolved "https://registry.yarnpkg.com/@lingui/core/-/core-4.11.0.tgz#01a13cfbdcd6461a4a04d58b9caf6a72aa37c32e"
@@ -2098,14 +2089,6 @@
     "@lingui/core" "4.11.1"
     "@lingui/message-utils" "4.11.1"
 
-"@lingui/message-utils@4.10.0":
-  version "4.10.0"
-  resolved "https://registry.yarnpkg.com/@lingui/message-utils/-/message-utils-4.10.0.tgz#2d575c5f2808b275c56495343b78c0b47d4443e6"
-  integrity sha512-p9Z4L4//ef1jpwqUR0hnILPbbqhVOXkLktY/EsZ7LMmvn18yhq4FjCtGsrorclTcTdtl0l7bqW4iEpEqGW91Gw==
-  dependencies:
-    "@messageformat/parser" "^5.0.0"
-    js-sha256 "^0.10.1"
-
 "@lingui/message-utils@4.11.0":
   version "4.11.0"
   resolved "https://registry.yarnpkg.com/@lingui/message-utils/-/message-utils-4.11.0.tgz#f07096eefd9bc7dd1e1216d28e0c5e5aebd0ee83"
@@ -2122,13 +2105,13 @@
     "@messageformat/parser" "^5.0.0"
     js-sha256 "^0.10.1"
 
-"@lingui/react@^4.10.0":
-  version "4.10.0"
-  resolved "https://registry.yarnpkg.com/@lingui/react/-/react-4.10.0.tgz#56dce040659c94c1125640f8e399f68164b44ade"
-  integrity sha512-QBbgKnIEePbt2ktq/6AVi9q91TRbwvcdrruOMu3qqXBqcF4KMu7rf05M9tvk/cClTjImuOF+FI3k+MX6LGnnYQ==
+"@lingui/react@^4.11.1":
+  version "4.11.1"
+  resolved "https://registry.yarnpkg.com/@lingui/react/-/react-4.11.1.tgz#9031bc4a2101707f657b3445ee40fadaa04ce894"
+  integrity sha512-pqnAhp1gYJKz7dgDAIb1G1oaBq7OcuQJrXDq/ekrLqSBLozlpPskY5bmv20ygtjgoUiVOlD0+32UWDLafasc4w==
   dependencies:
     "@babel/runtime" "^7.20.13"
-    "@lingui/core" "4.10.0"
+    "@lingui/core" "4.11.1"
 
 "@mediapipe/tasks-vision@0.10.8":
   version "0.10.8"
