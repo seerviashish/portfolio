@@ -2844,10 +2844,10 @@
   resolved "https://registry.yarnpkg.com/@types/ndarray/-/ndarray-1.0.12.tgz#82987c35302002f04082bbaabf3aaeebda2b2ee7"
   integrity sha512-qe0W0zvfpLUK1xn+HyHvle3D+o8tJQvFzXt1heYOL8kC74rtAosY+I3ZR7SylVoD9690+x0peDhek6STWyn9nQ==
 
-"@types/node@*", "@types/node@^22.5.4":
-  version "22.5.4"
-  resolved "https://registry.yarnpkg.com/@types/node/-/node-22.5.4.tgz#83f7d1f65bc2ed223bdbf57c7884f1d5a4fa84e8"
-  integrity sha512-FDuKUJQm/ju9fT/SeX/6+gBzoPzlVCzfzmGkwKvRHQVxi4BntVbyIwf6a4Xn62mrvndLiml6z/UBXIdEVjQLXg==
+"@types/node@*", "@types/node@^22.5.5":
+  version "22.5.5"
+  resolved "https://registry.yarnpkg.com/@types/node/-/node-22.5.5.tgz#52f939dd0f65fc552a4ad0b392f3c466cc5d7a44"
+  integrity sha512-Xjs4y5UPO/CLdzpgR6GirZJx36yScjh73+2NlLlkFRSoQN8B0DpfXPdZGnvVmLRLOsqDpOfTNv7D9trgGhmOIA==
   dependencies:
     undici-types "~6.19.2"
 
