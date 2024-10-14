@@ -2041,13 +2041,13 @@
     "@lingui/message-utils" "4.11.2"
     unraw "^3.0.0"
 
-"@lingui/core@^4.11.4":
-  version "4.11.4"
-  resolved "https://registry.yarnpkg.com/@lingui/core/-/core-4.11.4.tgz#87f9388e2a154eb5f3f820f136b68b12dfc261a1"
-  integrity sha512-W0bBIFe44s//Qs+RQ+NMfzK5vAm9oEKyDddlN94Db6rzeUT/IJo7N+T75A6Bya8v/BrtF2G/W4b77eS3sd0utw==
+"@lingui/core@^4.12.0":
+  version "4.12.0"
+  resolved "https://registry.yarnpkg.com/@lingui/core/-/core-4.12.0.tgz#0f97436075f0d88d25f7d880e25c1fba239447ca"
+  integrity sha512-mzu55Ka7fTr+gTdv2AoJl1kP2X6FLuolVtkY2eWiJ7SvyOv294kw30VCHrrSUctzYuOsktUE59RA6mlng70P1g==
   dependencies:
     "@babel/runtime" "^7.20.13"
-    "@lingui/message-utils" "4.11.4"
+    "@lingui/message-utils" "4.12.0"
     unraw "^3.0.0"
 
 "@lingui/format-po@4.11.2":
@@ -2087,10 +2087,10 @@
     "@messageformat/parser" "^5.0.0"
     js-sha256 "^0.10.1"
 
-"@lingui/message-utils@4.11.4":
-  version "4.11.4"
-  resolved "https://registry.yarnpkg.com/@lingui/message-utils/-/message-utils-4.11.4.tgz#a10b55df6d5f79bf188a16009e8ee3a2e4162f31"
-  integrity sha512-ZTCDhGbj5EN+P9Ajcj0Gq9uDP3HZTRW6/kT09WkiFgL4NayYLksPvgBk29sIglsS6M+Y6Iw2BrUK403SZjZKgw==
+"@lingui/message-utils@4.12.0":
+  version "4.12.0"
+  resolved "https://registry.yarnpkg.com/@lingui/message-utils/-/message-utils-4.12.0.tgz#0adfe21f58ebae48e138734febb0432af438bf64"
+  integrity sha512-K1ROdcjJXCPBed6NhI6RvOWwRZW+rnYQCnWL7pJS+R9h+Lkc51hyTEfXb4nWdfZzu6l0BAGasq0S5ZnfCjbjXw==
   dependencies:
     "@messageformat/parser" "^5.0.0"
     js-sha256 "^0.10.1"
