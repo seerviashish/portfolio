@@ -2029,18 +2029,6 @@
     jiti "^1.17.1"
     lodash.get "^4.4.2"
 
-"@lingui/conf@4.14.1":
-  version "4.14.1"
-  resolved "https://registry.yarnpkg.com/@lingui/conf/-/conf-4.14.1.tgz#c9a49e3fb78a4d631ae5a1ae20207b8c1ed760b4"
-  integrity sha512-LE/1RrVoMebQK+u4y6VQJdSwjOsMu4go/VR8m1eH0THn8vfkuLOYlPTIAHTWcoO+Ogi15p5TqHPfJcgVBy/NpA==
-  dependencies:
-    "@babel/runtime" "^7.20.13"
-    chalk "^4.1.0"
-    cosmiconfig "^8.0.0"
-    jest-validate "^29.4.3"
-    jiti "^1.17.1"
-    lodash.get "^4.4.2"
-
 "@lingui/core@4.13.0":
   version "4.13.0"
   resolved "https://registry.yarnpkg.com/@lingui/core/-/core-4.13.0.tgz#d21c062b4e7cec198dd602caf07fe212a98c0b2c"
@@ -2059,22 +2047,13 @@
     "@lingui/message-utils" "4.14.0"
     unraw "^3.0.0"
 
-"@lingui/core@4.14.1":
-  version "4.14.1"
-  resolved "https://registry.yarnpkg.com/@lingui/core/-/core-4.14.1.tgz#ff6caceeaf8763b1ba2a8da60bbce95ff2d1b700"
-  integrity sha512-3O6bnNzApWjb+jIdXa7G2VbrP6jZ5nfCeYSVloEYg6YFIfsQ3GunccK6I2nL80mWgr2qGP4VilGD+ODCeXHITA==
+"@lingui/core@^5.1.1", "@lingui/core@^5.1.2":
+  version "5.1.2"
+  resolved "https://registry.yarnpkg.com/@lingui/core/-/core-5.1.2.tgz#77acdc7f990e7db180c3c73e05daaa277aa969f3"
+  integrity sha512-biqmMCWuBBj7ERSpgGSV91hTShnSrR/RIFUcNKjWuZYgDd3HpBdEmXKCo9NTanQYbkBUpmyw/bgwsSBex6vkDA==
   dependencies:
     "@babel/runtime" "^7.20.13"
-    "@lingui/message-utils" "4.14.1"
-    unraw "^3.0.0"
-
-"@lingui/core@^5.1.1":
-  version "5.1.1"
-  resolved "https://registry.yarnpkg.com/@lingui/core/-/core-5.1.1.tgz#1ee78144adbef18359961ee4a758b13fb7fdbefd"
-  integrity sha512-gyjT2CPE3Yb8pqRI+aJd4koMejeXgSq23tPM/i+EWPF42p1zqc6aqFL2KBFEJKkoKZhDljOLrjQFHAeeC/Bmqw==
-  dependencies:
-    "@babel/runtime" "^7.20.13"
-    "@lingui/message-utils" "5.1.1"
+    "@lingui/message-utils" "^5.1.2"
     unraw "^3.0.0"
 
 "@lingui/format-po@4.14.0":
@@ -2087,16 +2066,13 @@
     date-fns "^3.6.0"
     pofile "^1.1.4"
 
-"@lingui/macro@^4.14.1":
-  version "4.14.1"
-  resolved "https://registry.yarnpkg.com/@lingui/macro/-/macro-4.14.1.tgz#52d37bf5ff566b985887a3c23c66482f5b8895ff"
-  integrity sha512-kVAe78Sj4a74GJTOOqoAzxZgsgqPfcBFQC1akXMlAv9r4bX7zvbMov2cQVWjvix0waetwxo3oVqlSozsa8UPAw==
+"@lingui/macro@^5.1.2":
+  version "5.1.2"
+  resolved "https://registry.yarnpkg.com/@lingui/macro/-/macro-5.1.2.tgz#0a5ec9be41d0f2300667ca4662cb49e184508e54"
+  integrity sha512-R6HV7XmiskkI/85JCjAtQuBPRu5AB57lOJdJE6xs2qBaeRu70v0BalTn4wyG5+r0JSkDI4gakWaXKW2KpWN6fQ==
   dependencies:
-    "@babel/runtime" "^7.20.13"
-    "@babel/types" "^7.20.7"
-    "@lingui/conf" "4.14.1"
-    "@lingui/core" "4.14.1"
-    "@lingui/message-utils" "4.14.1"
+    "@lingui/core" "^5.1.2"
+    "@lingui/react" "^5.1.2"
 
 "@lingui/message-utils@4.13.0":
   version "4.13.0"
@@ -2114,18 +2090,10 @@
     "@messageformat/parser" "^5.0.0"
     js-sha256 "^0.10.1"
 
-"@lingui/message-utils@4.14.1":
-  version "4.14.1"
-  resolved "https://registry.yarnpkg.com/@lingui/message-utils/-/message-utils-4.14.1.tgz#dc6816464d15841ebbf71d68fcc66d624e1788cb"
-  integrity sha512-J6MzyTLNCzEnyR1Da188G81cRcQMbk/lyYnLWMzQjIELDX8bBBwNea91Sf5Zm+BB+ADWmmGTdUqRPAjDqT9Y5w==
-  dependencies:
-    "@messageformat/parser" "^5.0.0"
-    js-sha256 "^0.10.1"
-
-"@lingui/message-utils@5.1.1":
-  version "5.1.1"
-  resolved "https://registry.yarnpkg.com/@lingui/message-utils/-/message-utils-5.1.1.tgz#0b091040b5ea6e9b4508b7128a40684f3e483349"
-  integrity sha512-v4PA3eI4LHNyHklqgX6vdZLHYhJcBrgJNmATfBrf3Rm+5Xdg2SKjrXKRm28Q+diNo+ao6IPwlxq32FZUS7h4kA==
+"@lingui/message-utils@^5.1.2":
+  version "5.1.2"
+  resolved "https://registry.yarnpkg.com/@lingui/message-utils/-/message-utils-5.1.2.tgz#8142a2b9ec148a845ddc8b3b9b91a5702efaf519"
+  integrity sha512-P/N0yBy2MuC726EaGPGiOafc/0RafHiwkvZJdFKjm1/XOMWrFZDPFXTuxguVQ3HQsRi5eUIPaboU4uRX4GepPg==
   dependencies:
     "@messageformat/parser" "^5.0.0"
     js-sha256 "^0.10.1"
@@ -2137,6 +2105,14 @@
   dependencies:
     "@babel/runtime" "^7.20.13"
     "@lingui/core" "4.13.0"
+
+"@lingui/react@^5.1.2":
+  version "5.1.2"
+  resolved "https://registry.yarnpkg.com/@lingui/react/-/react-5.1.2.tgz#0ab2976300c4fed98144b72f200653c5a14eb1af"
+  integrity sha512-YPAvbPUd+kJrmA9H1LSJ9f6+0hkOlm0w8g+7a8FtE7olamjXd7SyIgJMbeJmvKSdztrrdcLBs9YEftUKTfjiyg==
+  dependencies:
+    "@babel/runtime" "^7.20.13"
+    "@lingui/core" "^5.1.2"
 
 "@mediapipe/tasks-vision@0.10.17":
   version "0.10.17"
