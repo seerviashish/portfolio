@@ -71,7 +71,7 @@
     "@lingui/core": "^5.1.2",
     "@lingui/macro": "^4.14.1",
     "@lingui/react": "^4.13.0",
-    "@tanstack/eslint-plugin-query": "^5.62.9",
+    "@tanstack/eslint-plugin-query": "^5.62.15",
     "@typescript-eslint/eslint-plugin": "^5.50.0",
     "@typescript-eslint/parser": "^5.60.0",
     "eslint": "^8.57.1",
