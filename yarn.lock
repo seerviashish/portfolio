@@ -2041,15 +2041,6 @@
     jiti "^1.17.1"
     lodash.get "^4.4.2"
 
-"@lingui/core@4.13.0":
-  version "4.13.0"
-  resolved "https://registry.yarnpkg.com/@lingui/core/-/core-4.13.0.tgz#d21c062b4e7cec198dd602caf07fe212a98c0b2c"
-  integrity sha512-kRqQWeEVoqNrDtEdyHPWGsAHRStN8ObYc5a1gdyuBhoj1zaoUS/DMK5C7B1ZeTtj6rCCmZRs6d2tN12hsZ2zJA==
-  dependencies:
-    "@babel/runtime" "^7.20.13"
-    "@lingui/message-utils" "4.13.0"
-    unraw "^3.0.0"
-
 "@lingui/core@4.14.0":
   version "4.14.0"
   resolved "https://registry.yarnpkg.com/@lingui/core/-/core-4.14.0.tgz#108276abe5ce1d528886a6d3d562b1700a4ac787"
@@ -2098,14 +2089,6 @@
     "@lingui/core" "4.14.1"
     "@lingui/message-utils" "4.14.1"
 
-"@lingui/message-utils@4.13.0":
-  version "4.13.0"
-  resolved "https://registry.yarnpkg.com/@lingui/message-utils/-/message-utils-4.13.0.tgz#ebf64c5c47857dc4d39fde673804c9966ae8c8d8"
-  integrity sha512-tI/WBVZym+APwqk0O3xTaF0k+RQIv5E4PqGHdXqwbofycHly2C+izH+hg6UeNctc6jd19GRwqu/4ga9knkdAlQ==
-  dependencies:
-    "@messageformat/parser" "^5.0.0"
-    js-sha256 "^0.10.1"
-
 "@lingui/message-utils@4.14.0":
   version "4.14.0"
   resolved "https://registry.yarnpkg.com/@lingui/message-utils/-/message-utils-4.14.0.tgz#c4c1cdaca3e47fe6383826db1f74fb9d9e6553ab"
@@ -2130,13 +2113,13 @@
     "@messageformat/parser" "^5.0.0"
     js-sha256 "^0.10.1"
 
-"@lingui/react@^4.13.0":
-  version "4.13.0"
-  resolved "https://registry.yarnpkg.com/@lingui/react/-/react-4.13.0.tgz#19d86560bcb0514738d8087eb567d6cc5caadc25"
-  integrity sha512-5remR9rVwosiiX/RnEWETHA8cpqQiP7U87OXXMPz67LuyG3XP8RP+ic75rVn284DHLHgpjDbauz7vYIz855ZoQ==
+"@lingui/react@^5.1.2":
+  version "5.1.2"
+  resolved "https://registry.yarnpkg.com/@lingui/react/-/react-5.1.2.tgz#0ab2976300c4fed98144b72f200653c5a14eb1af"
+  integrity sha512-YPAvbPUd+kJrmA9H1LSJ9f6+0hkOlm0w8g+7a8FtE7olamjXd7SyIgJMbeJmvKSdztrrdcLBs9YEftUKTfjiyg==
   dependencies:
     "@babel/runtime" "^7.20.13"
-    "@lingui/core" "4.13.0"
+    "@lingui/core" "^5.1.2"
 
 "@mediapipe/tasks-vision@0.10.17":
   version "0.10.17"
