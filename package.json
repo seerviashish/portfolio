@@ -8,7 +8,7 @@
     "@react-three/fiber": "^8.17.14",
     "@react-three/gltfjsx": "^4.3.4",
     "@react-three/rapier": "^1.5.0",
-    "@tanstack/react-query": "^5.67.1",
+    "@tanstack/react-query": "^5.67.2",
     "@tanstack/react-query-devtools": "^5.67.1",
     "@testing-library/jest-dom": "^6.6.3",
     "@testing-library/react": "^16.2.0",
