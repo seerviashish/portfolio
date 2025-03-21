@@ -2043,13 +2043,22 @@
     "@lingui/message-utils" "4.14.0"
     unraw "^3.0.0"
 
-"@lingui/core@5.2.0", "@lingui/core@^5.1.2":
+"@lingui/core@5.2.0":
   version "5.2.0"
   resolved "https://registry.yarnpkg.com/@lingui/core/-/core-5.2.0.tgz#ab70491568c744fe31927c515197b36f3bc6cb49"
   integrity sha512-cz35uKDxIGb/CPvgwn7BM/QYpxtARmQm7n+mHUoNJdNKSrg9R7vKkLRG7k9dukZwix2Mdjh+2dPIJnAkor2CiA==
   dependencies:
     "@babel/runtime" "^7.20.13"
     "@lingui/message-utils" "5.2.0"
+    unraw "^3.0.0"
+
+"@lingui/core@5.3.0", "@lingui/core@^5.1.2":
+  version "5.3.0"
+  resolved "https://registry.yarnpkg.com/@lingui/core/-/core-5.3.0.tgz#a5a0dc4132fb6d59c15dd93b6f5d0b2072223fcf"
+  integrity sha512-Y0anQ4a/E7nqwnrOLGlrVanWufx8xy6+WDT18U3GavJ2LRNv44NYzjw85jd6SJOsxgfcSFnTf4xh/Bq44AgRpQ==
+  dependencies:
+    "@babel/runtime" "^7.20.13"
+    "@lingui/message-utils" "5.3.0"
     unraw "^3.0.0"
 
 "@lingui/format-po@4.14.0":
@@ -2086,13 +2095,29 @@
     "@messageformat/parser" "^5.0.0"
     js-sha256 "^0.10.1"
 
-"@lingui/react@5.2.0", "@lingui/react@^5.1.2":
+"@lingui/message-utils@5.3.0":
+  version "5.3.0"
+  resolved "https://registry.yarnpkg.com/@lingui/message-utils/-/message-utils-5.3.0.tgz#ac75c5087c65dfb84aada861389366a70cae9357"
+  integrity sha512-pWh7rUUkIdfq2WrxXpXXlnikmKDf+2OvHUb0LTb60AyWAvvFT0rtZ1O2OSLUQ68rKfSQJCTYl1o6LELHJ38EXA==
+  dependencies:
+    "@messageformat/parser" "^5.0.0"
+    js-sha256 "^0.10.1"
+
+"@lingui/react@5.2.0":
   version "5.2.0"
   resolved "https://registry.yarnpkg.com/@lingui/react/-/react-5.2.0.tgz#3c21623f345b9f42d8a78e75e79915a32171a959"
   integrity sha512-Ok9ZsA3hPPzeTXpp1woFk0Bgqv6shMB8AzbSQCixudLdbuAPkBu/EKlwTGBs0yYlq5cUXeDYrKKHF1R5BcX5HA==
   dependencies:
     "@babel/runtime" "^7.20.13"
     "@lingui/core" "5.2.0"
+
+"@lingui/react@^5.3.0":
+  version "5.3.0"
+  resolved "https://registry.yarnpkg.com/@lingui/react/-/react-5.3.0.tgz#5dad7fd15c3fd28587386dffe4a9f2ec5eab2357"
+  integrity sha512-nKtG3PobEWovEO46RLlYWL8xvqxeI+Joa81mahdRWG6fKd177p8TROECmdFeong18w17AwDik/gfWk3+jYt9yQ==
+  dependencies:
+    "@babel/runtime" "^7.20.13"
+    "@lingui/core" "5.3.0"
 
 "@mediapipe/tasks-vision@0.10.17":
   version "0.10.17"
