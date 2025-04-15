@@ -2542,10 +2542,10 @@
   dependencies:
     "@typescript-eslint/utils" "^8.18.1"
 
-"@tanstack/query-core@5.74.2":
-  version "5.74.2"
-  resolved "https://registry.yarnpkg.com/@tanstack/query-core/-/query-core-5.74.2.tgz#dd4aa5fb3e91ae80c96fb209fadbc622e2f75b49"
-  integrity sha512-zxiLXIJ0TYsemnkL04qXWRxHSPiJbDfkaCUFbDz5pE2CUQBGoU6Xg3oPWkpQrz0G/7T+kMV7gtvXCrz/pCtoAg==
+"@tanstack/query-core@5.74.3":
+  version "5.74.3"
+  resolved "https://registry.yarnpkg.com/@tanstack/query-core/-/query-core-5.74.3.tgz#1fc97bd9a47f2acdf9f49737b1e6969e7bbcb7d7"
+  integrity sha512-Mqk+5o3qTuAiZML248XpNH8r2cOzl15+LTbUsZQEwvSvn1GU4VQhvqzAbil36p+MBxpr/58oBSnRzhrBevDhfg==
 
 "@tanstack/query-devtools@5.72.1":
   version "5.72.1"
@@ -2559,12 +2559,12 @@
   dependencies:
     "@tanstack/query-devtools" "5.72.1"
 
-"@tanstack/react-query@^5.74.2":
-  version "5.74.2"
-  resolved "https://registry.yarnpkg.com/@tanstack/react-query/-/react-query-5.74.2.tgz#b88be0cceabc101bf21e455de7e85e192bbd6410"
-  integrity sha512-L0Jsa1/73fw1nNrWzlnosYqSGBksjR4ZhKGvC+kp4N/6CyGRF1UsrNWjVH6PRHmeJNxh315OhMUoYlWwyHveNQ==
+"@tanstack/react-query@^5.74.3":
+  version "5.74.3"
+  resolved "https://registry.yarnpkg.com/@tanstack/react-query/-/react-query-5.74.3.tgz#f7acd825abaea091f009d1c3f115212e45c4ee74"
+  integrity sha512-QrycUn0wxjVPzITvQvOxFRdhlAwIoOQSuav7qWD4SWCoKCdLbyRZ2vji2GuBq/glaxbF4wBx3fqcYRDOt8KDTA==
   dependencies:
-    "@tanstack/query-core" "5.74.2"
+    "@tanstack/query-core" "5.74.3"
 
 "@testing-library/jest-dom@^6.6.3":
   version "6.6.3"
