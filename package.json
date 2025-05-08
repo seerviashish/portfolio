@@ -24,7 +24,7 @@
     "tailwindcss": "^3.4.17",
     "three": "^0.176.0",
     "typescript": "5.7.3",
-    "web-vitals": "^3.5.2"
+    "web-vitals": "^5.0.0"
   },
   "scripts": {
     "commit": "git-cz",
