@@ -73,7 +73,7 @@
     "@lingui/react": "^5.1.2",
     "@tanstack/eslint-plugin-query": "^5.74.7",
     "@typescript-eslint/eslint-plugin": "^5.50.0",
-    "@typescript-eslint/parser": "^8.32.0",
+    "@typescript-eslint/parser": "^8.32.1",
     "eslint": "^8.57.1",
     "eslint-config-prettier": "^10.1.5",
     "eslint-config-standard-with-typescript": "^37.0.0",
