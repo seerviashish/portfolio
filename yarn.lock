@@ -2801,10 +2801,10 @@
   resolved "https://registry.yarnpkg.com/@types/ndarray/-/ndarray-1.0.12.tgz#82987c35302002f04082bbaabf3aaeebda2b2ee7"
   integrity sha512-qe0W0zvfpLUK1xn+HyHvle3D+o8tJQvFzXt1heYOL8kC74rtAosY+I3ZR7SylVoD9690+x0peDhek6STWyn9nQ==
 
-"@types/node@*", "@types/node@^22.15.19":
-  version "22.15.19"
-  resolved "https://registry.yarnpkg.com/@types/node/-/node-22.15.19.tgz#ba9f321675243af0456d607fa82a4865931e0cef"
-  integrity sha512-3vMNr4TzNQyjHcRZadojpRaD9Ofr6LsonZAoQ+HMUa/9ORTPoxVIw0e0mpqWpdjj8xybyCM+oKOUH2vwFu/oEw==
+"@types/node@*", "@types/node@^22.15.21":
+  version "22.15.21"
+  resolved "https://registry.yarnpkg.com/@types/node/-/node-22.15.21.tgz#196ef14fe20d87f7caf1e7b39832767f9a995b77"
+  integrity sha512-EV/37Td6c+MgKAbkcLG6vqZ2zEYHD7bvSrzqqs2RIhbA6w3x+Dqz8MZM3sP6kGTeLrdoOgKZe+Xja7tUB2DNkQ==
   dependencies:
     undici-types "~6.21.0"
 
